@@ -14,8 +14,7 @@ The main goal of the project is to create a web application, wich will have basi
 
 **4.Bootstrap 4** - a front-end web framework for designing websites and web applications.
 
-
-To see more information read the Documentations:
+### To see more information read the Documentations:
 
 ### Requirements: (RU)
 
