@@ -4,7 +4,7 @@ RailsBlog is a simple blog web application.
 
 The main goal of the project is to create a web application, wich will have basic blog functional.
 
-### Used technologies
+### Used technologies:
 
 **1.Ruby on Rails** - a web application framework written in Ruby under the MIT License.
 
