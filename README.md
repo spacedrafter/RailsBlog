@@ -1,6 +1,7 @@
 # RailsBlog
 
 RailsBlog is a simple blog web application.
+
 The main goal of the project is to create a web application, wich will have basic blog functional.
 
 ### Used technologies
@@ -16,7 +17,7 @@ The main goal of the project is to create a web application, wich will have basi
 
 To see more information read the Documentations:
 
-### Requirements:(RU)
+### Requirements: (RU)
 
 
 -----------------------------------
