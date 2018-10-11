@@ -17,7 +17,7 @@ The main goal of the project is to create a web application, wich will have basi
 
 To see more information read the Documentations:
 
-**Requirements:(RU)**
+**Requirements:([RU](https://github.com/spacedrafter/RailsBlog/tree/master/Documentations))**
 
 
 -----------------------------------
