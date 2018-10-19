@@ -34,14 +34,17 @@
 Интерфейс пользователя описан [мокапами](https://github.com/spacedrafter/RailsBlog/tree/master/Mockups).
 
 При открытии приложения пользователь попадает на главную страницу:
+
 ![Main](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/main_page.png)
 
 У неавторизированного пользователя имеется возможность просмотра опубликованных авторизированными пользователями постов, просмотра страниц с дополнительной информацией Contact и About, возможность авторизации:
+
 ![Post View](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/post_view.png)
 ![About](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/about.png)
 ![Log In](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/sign_in.png)
 
 После авторизации у пользователя появляются возможности, скрытые в dropdown-меню:
+
 ![Dropdown](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/dropdown_menu.png)
 
 Среди них возможность просмотра своих постов, создания нового поста, возможность редактирования информации профиля и смены пароля:
