@@ -33,6 +33,23 @@
 
 Интерфейс пользователя описан [мокапами](https://github.com/spacedrafter/RailsBlog/tree/master/Mockups).
 
+При открытии приложения пользователь попадает на главную страницу:
+![Main](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/main_page.png)
+
+У неавторизированного пользователя имеется возможность просмотра опубликованных авторизированными пользователями постов, просмотра страниц с дополнительной информацией Contact и About, возможность авторизации:
+![Post View](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/post_view.png)
+![About](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/about.png)
+![Log In](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/sign_in.png)
+
+После авторизации у пользователя появляются возможности, скрытые в dropdown-меню:
+![Dropdown](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/dropdown_menu.png)
+
+Среди них возможность просмотра своих постов, создания нового поста, возможность редактирования информации профиля и смены пароля:
+
+![My Posts](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/my_posts.png)
+![New Post](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/new_post.png)
+![Change Profile](https://github.com/spacedrafter/RailsBlog/blob/master/Mockups/account_settings%20.png)
+
 ### 2.3. Характеристики пользователей
 
 RailsBlog рассчитан на среднестатистического пользователя любого возраста. Приложение может быть полезно при желании высказаться на интересующую тематику, поделиться фотографиями или рисунками, а также дает возможность посмотреть, как и чем живут другие люди, публикующие свои посты.
