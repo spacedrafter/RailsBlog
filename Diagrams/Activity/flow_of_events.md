@@ -10,7 +10,7 @@
 
 4. Пост добавляется а базу данных.
 
-![Add new post.](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Activity/Diagrams/add_new_post.jpg)
+![Add new post](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Activity/Diagrams/add_new_post.jpg)
 
 ### Авторизация.
 
@@ -22,7 +22,7 @@
 
 4. Если вход в данный аккаун с данного e-mail был произведен впервые, то аккаунт добавлятеся в базу данных.
 
-
+![Log in](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Activity/Diagrams/log_in.jpg)
 
 ### Настройка аккаунта.
 
@@ -40,6 +40,8 @@
 
 7. При верном заполнении полей смены пароля и нажатии "Change Password", пароль будет изменен и сохранен в базе данных.
 
+![Change Password](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Activity/Diagrams/profile_settings.jpg) 
+
 ### Оставление комментария.
 
 1. На странице просмотра конкретного поста пользователю представляется возможность оставить комментарий.
@@ -49,4 +51,6 @@
 3. Если поле заполнено - комментарий будет сохранен и добавлен в базу данных.
 
 4. Если текстовое поле пустое - комментарий добавлен не будет.
+
+![Leave comment](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Activity/Diagrams/leave_comment.jpg)
 
