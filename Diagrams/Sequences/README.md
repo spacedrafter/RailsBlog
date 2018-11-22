@@ -2,7 +2,7 @@
 
 ### Добавление нового поста.
 
-![Add new post](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Sequence/create_new_post.jpg)
+![Add new post](https://github.com/spacedrafter/RailsBlog/blob/master/Diagrams/Sequences/create_new_post.jpg)
 
 ### Авторизация.
 
