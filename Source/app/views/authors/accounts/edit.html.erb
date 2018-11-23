@@ -1,0 +1,81 @@
+
+<div class="row">
+
+  <!-- Basic Info -->
+  <div class="col-md-6">
+    <%= form_tag authors_info_path, method: :put do %>
+      <%= fields_for :author do |f| %>
+          <div class="card">
+            <ul class="list-group list-group-flush">
+              <dev class="card-block">
+                <div class="card-title">
+                  Basic info
+                </div>
+              </dev>
+              <li class="list-group-item">
+                <%= image_tag(current_author.gravatar_image_url) %>
+              </li>
+              <li class="list-group-item">
+                <div class="field">
+                  <%= f.label :name %><br>
+                  <%= f.text_field :name, value: current_author.name, class: "form-control form-control-md-4", type: "text"%>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="field">
+                  <%= f.label :email %><br>
+                  <%= f.email_field :email, value: current_author.email, class: "form-control form-control-md-4", type: "text" %>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <div class="field">
+                  <%= f.label :bio %><br>
+                  <%= f.text_area :bio, value: current_author.bio, class: "form-control form-control-md-4", type: "text"%>
+                </div>
+              </li>
+              <li class="list-group-item">
+                <%= f.submit "Upadate info", class: 'btn btn-primary' %>
+              </li>
+            </ul>
+          </div>
+          <% end %>
+      <% end %>
+    </div>
+  <!-- Change password -->
+
+  <div class="col-md-6">
+    <%= form_tag authors_change_password_path, method: :put do %>
+    <%= fields_for :author do |f| %>
+        <div class="card">
+          <ul class="list-group list-group-flush">
+            <dev class="card-block">
+              <div class="card-title">
+                  Change password
+              </div>
+            </dev>
+            <li class="list-group-item">
+              <div class="password-field" >
+                <%= f.label :current_password %><br>
+                <%= f.password_field :current_password, class: "form-control form-control-md-4", type: "password"%>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="password-field">
+                <%= f.label :new_password %><br>
+                <%= f.password_field :new_password, class: "form-control form-control-md-4", type: "password" %>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="password-field">
+                <%= f.label :new_password_confirmation %><br>
+                <%= f.password_field :new_password_confirmation, class: "form-control form-control-md-4", type: "password"%>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <%= f.submit "Change password", class: 'btn btn-warning' %>
+            </li>
+          </ul>
+        </div>
+      <% end %>
+    <% end %>
+</div>
