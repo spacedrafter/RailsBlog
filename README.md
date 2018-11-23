@@ -21,7 +21,7 @@ To see more information read the Documentations:
 
 **UML Diagrams:([RU](https://github.com/spacedrafter/RailsBlog/tree/master/Diagrams))**
 
-**Source Code:([RU](https://github.com/spacedrafter/RailsBlog/tree/master/Source))**
+**Source Code:[Here](https://github.com/spacedrafter/RailsBlog/tree/master/Source)**
 
 -----------------------------------
 
